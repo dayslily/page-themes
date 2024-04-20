@@ -1,0 +1,159 @@
+<! DOCTYPE html>
+<html>
+    
+    <!-- HELPFUL GUIDE TO EDITING THIS CODE: 
+    change all color below beneath "root", this will adjust all connected colors.
+    blur images by surrounding the img code with <cw></cw>
+    search "INSERT GIFS HERE" to find where you paste image codes -->
+    
+<head>
+    <title>{Title}</title>
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+ 
+<!-- SCRIPTS & CUSTOM FONTS GO BELOW HERE-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<style type="text/css">
+
+:root {
+    /* CHANGE COLORS HERE */
+    --background:#f6f6f6;
+    --accent:#fff;
+    --accenttext:#323232;
+}
+
+/* magnusthemes - "unuglify tumblr controls" */
+.iframe-controls--desktop {
+   position:fixed;
+   top:0px;
+   right:0px;
+   z-index:214748364789123456789;
+   filter:invert(100%);
+   -webkit-filter:invert(100%);  
+   -webkit-transform:scale(0.6,0.6);
+   -webkit-transform-origin: 100% 0%;
+   -ms-transform-origin:100% 0%;
+   -ms-transform:scale(0.6,0.6);
+   transform:scale(0.6,0.6);
+   transform-origin:100% 0%;
+}
+
+/* this hides scrollbars visually but keeps functionality! */
+::-webkit-scrollbar {
+   display: none;
+   -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body {
+    background-color:var(--background);
+    
+    overflow-x:none;
+    
+    font-size:12px;
+}
+
+
+
+#sidebar {
+    height:100vh; width:25px; padding:20px;
+    position:fixed; margin:auto; top:0px; left:0px;
+    
+    background-color:var(--accent);
+    border-right:1px solid rgba(0, 0, 0, 0.05);
+    
+    text-align:right;
+}
+
+    .key { height:auto; width:auto;
+        
+            font-family:dm mono; color:var(--accenttext);
+            writing-mode: vertical-lr;
+            rotate: 180deg;
+    }
+    
+        .key x { font-family:Rubik Mono One; font-size:20px;
+                 color:var(--accenttext); }
+             
+    .navi { height:80px; width:30px;
+    
+            position:fixed; bottom:30px; left:16px;
+    
+            font-family:dm mono; font-size:30px;
+            color:var(--accenttext); text-align:center;
+    }
+    
+        .navi a, href { color:var(--accenttext); }
+    
+    
+    
+#gifs {
+    width:calc(100vw - 100px);
+    position:relative; margin:auto; top:30px; left:40px;
+}
+
+    #gifs img { margin:2px; padding:0px; }
+    
+    #gifs cw img { 
+        filter: blur(2px); -webkit-filter: blur(2px); opacity:80%; }
+    #gifs cw img:hover {
+        filter: blur(0px); -webkit-filter: blur(0px); opacity:100%; }
+    
+    
+             
+    .credit { position:fixed; margin:auto; rotate:310deg;
+              bottom:10px; right:10px; color:var(--accent);
+              font-weight:500; }
+              
+    .credit a, href { color:var(--accenttext); }
+    
+</style>
+
+<body>
+    
+    <!-- HTML/DIV BLOCKS GO HERE -->
+    <div id="sidebar">
+        
+        <div class="key">
+            <x>sana minatozaki *</x>&nbsp;
+            access <u>###</u> gifs on this page.
+        </div>
+        
+        <div class="navi">
+            <a title="go back" href="#">
+                <i class='bx bx-home' ></i>
+            </a>
+            <p>
+            <a title="usage guidelines" href="#">
+                <i class='bx bx-bookmarks'></i>
+            </a>
+            
+        </div>
+        
+    </div>
+    
+<div id="gifs">
+<!-- INSERT GIFS BELOW THIS LINE -->
+        
+
+        
+<!-- INSERT GIFS ABOVE THIS LINE -->
+</div>
+    
+
+
+        <div class="credit">
+            <a href="https://dayslily.tumblr.com/">
+            <i class='bx bx-key'></i>
+            </a>
+        </div>
+        
+</body>
+    
+</html>
